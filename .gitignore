@@ -1,0 +1,22 @@
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary logs
+*.log
+.pytest_cache/
+.coverage
